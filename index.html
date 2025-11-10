@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FurniHome — Modern Furniture</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-soft">
+
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-dark" href="index.html">FurniHome</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- HERO -->
+  <header class="container py-6">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold">Timeless furniture, designed for life.</h1>
+        <p class="lead text-muted">Minimal, comfortable, and crafted for everyday living — discover pieces that elevate your space.</p>
+        <a href="products.html" class="btn btn-accent btn-lg me-2">Shop Collection</a>
+        <a href="about.html" class="btn btn-outline-secondary btn-lg">About Us</a>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <div class="hero-card shadow-sm rounded overflow-hidden">
+          <img src="https://i5.walmartimages.com/seo/HONBAY-Modern-Living-Room-Furniture-Sofa-Set-with-Storage-Ottomans-Grey_aba8e40f-0237-4624-9a0d-d5b2e740bbc3.1807a333a799e305d0081bcf7e56993e.jpeg" alt="Modern Sofa" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- FEATURES -->
+  <section class="container py-5">
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+        <div class="feature p-4 rounded">
+          <div class="feature-icon mb-3">🕒</div>
+          <h5 class="mb-1">Fast Delivery</h5>
+          <p class="text-muted small">Prompt shipping across the Philippines.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature p-4 rounded">
+          <div class="feature-icon mb-3">🪑</div>
+          <h5 class="mb-1">Quality Craft</h5>
+          <p class="text-muted small">Durable materials and clean design.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature p-4 rounded">
+          <div class="feature-icon mb-3">🤝</div>
+          <h5 class="mb-1">Local Support</h5>
+          <p class="text-muted small">Customer-first service and returns.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white border-top mt-5">
+    <div class="container py-4 d-flex justify-content-between align-items-center">
+      <div class="text-muted small">© <span id="year1"></span> FurniHome</div>
+      <div class="footer-links small">
+        <a href="#" class="me-3">Instagram</a>
+        <a href="#" class="me-3">Facebook</a>
+        <a href="#">Pinterest</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year1').textContent = new Date().getFullYear();</script>
+</body>
+</html>
